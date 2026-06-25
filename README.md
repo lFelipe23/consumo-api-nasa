@@ -57,20 +57,25 @@ O projeto foi organizado da seguinte forma para manter a simplicidade e a separa
  ┣ 📜 index.html    # Estrutura da página e chamadas do Tailwind CSS
  ┣ 📜 script.js     # Lógica de requisição à API e manipulação do DOM
  ┗ 📜 README.md     # Documentação do projeto
+```
 
- ---
+---
 
- ## 🚀 Como Executar o Projeto Localmente
+## 🚀 Como Executar o Projeto Localmente
 
-Para rodar esta aplicação na sua máquina, siga os passos abaixo usando o seu terminal:
+**Pré-requisitos:** Um navegador web atualizado (Chrome, Edge, etc).
+
+**1. Clonar o Repositório**
 
 ```bash
-# 1. Clone este repositório
 git clone https://github.com/lFelipe23/consumo-api-nasa.git
-
-# 2. Acesse a pasta do projeto
 cd consumo-api-nasa
+```
 
-# 3. Execute a aplicação
-# Basta dar um duplo clique no arquivo index.html para abri-lo no seu navegador
-# ou utilizar a extensão Live Server no VS Code.
+**2. Executar a Aplicação**
+
+Como o projeto utiliza tecnologias nativas (HTML, CSS via CDN e Vanilla JS), não é necessária a instalação de dependências no terminal. 
+
+```text
+Basta dar um duplo clique no arquivo index.html para abri-lo diretamente no seu navegador, ou utilizar a extensão Live Server no VS Code.
+```
