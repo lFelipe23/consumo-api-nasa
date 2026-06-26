@@ -1,4 +1,3 @@
-console.log("O JavaScript está conectado e rodando!");
 // === Galeria de Fenômenos Astronômicos ===
 // Consome a API pública da NASA Image and Video Library
 
