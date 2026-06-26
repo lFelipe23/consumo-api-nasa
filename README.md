@@ -37,6 +37,7 @@ Durante o ciclo de desenvolvimento, o projeto passou por melhorias importantes p
 
 * **Ajuste na URL de Busca:** Inicialmente, tentou-se implementar múltiplos filtros textuais simultâneos na API através de operadores lógicos. Como o mecanismo de busca da NASA interpreta os termos de forma literal, a resposta retornava vazia (zero resultados). A busca foi simplificada para um termo central estável (`q=nebula`), garantindo o retorno imediato de imagens ricas.
 * **Correção de Caminho Relativo (Erro 404):** O arquivo HTML inicialmente buscava o script utilizando uma barra absoluta (`/script.js`), o que fazia o navegador procurar o arquivo na raiz do sistema e impedia o carregamento da lógica. O caminho foi corrigido para relativo (`script.js`), garantindo o vínculo perfeito entre os arquivos na mesma pasta.
+* **Uso do Console (DevTools) para Debugging:** Conforme demonstrado em sala de aula, a ferramenta de Inspecionar do navegador foi fundamental para isolar problemas. Durante o desenvolvimento, as imagens não renderizavam, resultando em uma tela vazia. Ao inspecionar a aba **Console** (`F12`) e utilizar testes com `console.log()`, foi possível comprovar que não havia erros de sintaxe e que os arquivos estavam conectados corretamente. Isso permitiu direcionar o foco do *debugging* para a regra de negócios (a string de busca recusada pela API), resolvendo o problema rapidamente.
 
 ---
 
